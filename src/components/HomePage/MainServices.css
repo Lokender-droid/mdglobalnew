@@ -1,0 +1,70 @@
+/* Neumorphism shadow */
+.homepage-service-shadow {
+  box-shadow: 6px 6px #d19602be, #ffffff;
+  background-color: #e5e1d641;
+  border: 1px solid #bd8706;
+  margin: 4%;
+}
+
+/* Service image */
+.homepage-service-image {
+  transition: transform 0.3s ease;
+  padding: 10px; /* Added padding to all images */
+}
+
+/* Service title */
+.homepage-service-title {
+  font-size: 1.8rem;
+  padding: 15px;
+  font-weight: 800;
+  background: linear-gradient(90deg, #bd8706, #bd8706);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Main title */
+.homepage-service-title-main {
+  /* padding: 15px; */
+  margin: 2rem 2rem;
+  color: #bd8706;
+  font-size: 2rem;
+  text-shadow: black 1px 1px;
+  font-weight: 800;
+  text-align: center;
+}
+
+/* Service subtitle */
+.homepage-service-subtitle {
+  padding-left: 15px;
+  /* font-weight: 600; */
+  color: #1f1f1f;
+}
+
+/* Service text */
+.homepage-service-text {
+  margin-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: justify;
+  color: #4b4c4e;
+  font-size: 1rem;
+}
+
+/* Description paragraph */
+.homepage-service-description, .homepage-service-description2{
+  padding: 10px;
+  color: #4b4c4e;
+  font-size: 1rem;
+  text-align: justify;
+  /* margin-bottom: 10px; */
+}
+
+/* Intro section */
+#homepage-service-intro {
+  text-align: center;
+  margin: 0 auto 2rem auto;
+}
+
+@media (min-width: 640px) {
+ 
+}

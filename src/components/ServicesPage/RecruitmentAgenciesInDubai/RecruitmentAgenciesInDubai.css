@@ -1,0 +1,54 @@
+/* Base container */
+.rad-main {
+  padding: 1.5rem;
+}
+
+/* Banner styling */
+.rad-banner {
+  height: 20rem;
+}
+.rad-banner-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.rad-banner-heading {
+  text-align: center;
+  font-weight: 800;
+  line-height: 1.3;
+}
+.rad-banner-underline {
+  margin-top: 0.5rem;
+}
+
+/* Intro Article */
+.rad-intro-article {
+  margin-top: 2rem;
+}
+.rad-intro-title {
+  font-size: 1.125rem;
+}
+.rad-intro-paragraph {
+  margin-bottom: 1rem;
+  line-height: 1.75;
+}
+
+/* Highlighted Article */
+.rad-highlight-article {
+  background-color: #ffffff;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.rad-highlight-heading,
+.rad-highlight-subheading {
+  color: #1f2937;
+}
+.rad-highlight-paragraph,
+.rad-highlight-details {
+  margin-bottom: 1rem;
+  line-height: 1.75;
+}
+
+/* Optional bottom spacing */
+.rad-bottom-section {
+  padding-bottom: 2rem;
+}

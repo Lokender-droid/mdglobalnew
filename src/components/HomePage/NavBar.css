@@ -1,0 +1,158 @@
+/* NavBar.css */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 50;
+  background: black;
+  backdrop-filter: blur(10px);
+  /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); */
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  height: 64px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.desktop-menu {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* gap: 2rem; */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.MainNavElement {
+  text-align: center;
+}
+
+.nav-link {
+  color: #ffff;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #f1bc40;
+  text-decoration: underline;
+}
+
+.quote-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.download-brochure {
+  width: 160px;
+  height: 40px;
+  background: linear-gradient(90deg, #bf8602, #ebcf3d);
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.download-brochure:hover {
+  background: linear-gradient(90deg, #bf8602, #ebcf3d);
+  transform: translateY(-1px);
+}
+
+.hamburger {
+  display: none;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+.menu-items {
+  margin-bottom: 1rem;
+}
+
+.navElement {
+  display: block;
+  margin-left:10%;
+  /* text-align: center; */
+  color: #ffff;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 0.75rem 0;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navElement:hover {
+  color: #bd8706;
+}
+
+.mobile-quote-button {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.Download-brochure-sm {
+  width: 160px;
+  height: 40px;
+  background: linear-gradient(90deg, #bf8602, #ebcf3d);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.Download-brochure-sm:hover {
+  background: linear-gradient(90deg, #2b6cb0, #2c5282);
+  transform: translateY(-1px);
+}
+
+@media (max-width: 1023px) {
+  .desktop-menu {
+    display: none;
+  }
+  .hamburger {
+    display: flex;
+    align-items: center;
+  }
+  .mobile-menu {
+    display: block;
+  }
+  .nav-container {
+    padding: 0 1rem;
+    background-color: black;
+  }
+}
+
+@media (min-width: 1024px) {
+  .nav-container {
+    padding: 0 2rem;
+    background-color: black;
+  }
+}

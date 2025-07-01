@@ -1,0 +1,63 @@
+import React from 'react';
+import FilterBar from './FilterBar';
+import './filterbar.css';
+
+const JobPage = () => {
+  const categories = ['HR Consultant', 'Talent Acquisition Consultant'];
+  const locations = ['New York', 'London', 'Remote'];
+
+  const [selectedCategory, setSelectedCategory] = React.useState('');
+  const [selectedLocation, setSelectedLocation] = React.useState('');
+
+  const jobs = [
+    {
+      title: 'Senior HR Consultant',
+      description: 'Acts for the clients, developing tailored HRD strategies to enhance workforce efficiency. Possess, design talent management programs, and advise on compliance with HR senior leadership to align HR initiatives with business goals.',
+      salary: 'Not specified',
+      experience: 'Not specified',
+      position: 'N/A',
+      location: 'New York',
+    },
+    {
+      title: 'Talent Acquisition Consultant',
+      description: 'Description not provided in the image.',
+      salary: 'Not specified',
+      experience: 'Not specified',
+      position: 'N/A',
+      location: 'Remote',
+    },
+  ];
+
+  const filteredJobs = jobs.filter((job) => {
+    const matchesCategory = selectedCategory ? job.title === selectedCategory : true;
+    const matchesLocation = selectedLocation ? job.location === selectedLocation : true;
+    return matchesCategory && matchesLocation;
+  });
+
+  return (
+    <div className="fb-page-wrapper">
+      <div className="fb-main-container">
+        <FilterBar
+          categories={categories}
+          locations={locations}
+          selectedCategory={selectedCategory}
+          selectedLocation={selectedLocation}
+          onCategoryChange={setSelectedCategory}
+          onLocationChange={setSelectedLocation}
+        />
+        <div className="fb-job-listing">
+          {filteredJobs.map((job, index) => (
+            <div key={index} className="fb-job-card">
+              <h3>{job.title}</h3>
+              <p>{job.description}</p>
+              <p><strong>Salary:</strong> {job.salary} | <strong>Experience:</strong> {job.experience} | <strong>Position:</strong> {job.position}</p>
+              <button className="fb-apply-button">Apply Now</button>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default JobPage;

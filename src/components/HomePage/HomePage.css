@@ -1,0 +1,53 @@
+.glassmorphism {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+#recruitment-agency-section {
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+#recruitment-agency-section .heading-title {
+  font-family:'Poppins' ;
+  font-size: 1.5rem;
+  padding: 10px;
+  color: #000000;
+  /* text-shadow: black 1px 1px; */
+  font-weight: bold;
+  
+}
+
+@media (min-width: 768px) {
+  #recruitment-agency-section .heading-title {
+    font-size: 1.8rem;
+    padding: 10px;
+    
+  }
+}
+
+.about-paragraph {
+  text-align: justify;
+  font-size: 1rem;
+  color: #4b4c4e;
+  line-height: 1.75;
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: 1rem; 
+}
+
+@media (min-width: 640px) {
+  .about-paragraph {
+    font-size: 1rem;
+    /* padding: 1.25rem;  */
+  }
+}
+
+@media (min-width: 768px) {
+  .about-paragraph {
+    font-size: 1rem;
+    /* padding: 1.5rem;  */
+  }
+}
