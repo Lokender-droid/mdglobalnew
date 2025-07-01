@@ -1,6 +1,8 @@
 import React from "react";
 import "./VisionMission.css";
-import meetingImage from "./../../assets/meetingRoom.jpg";
+// import meetingImage from "./../../assets/meetingRoom.jpg";
+import meetingImage5 from "./../../assets/meetingRoom5.jpg";
+import meetingImage4 from "./../../assets/meetingRoom4.jpg";
 import meetingImage3 from "./../../assets/meetingRoom2.jpg";
 import meetingImage2 from "./../../assets/ourMission.jpeg";
 
@@ -11,7 +13,7 @@ const VisionMission = () => {
         <div className="vision-container">
           <div className="vision-image-wrapper">
             <img
-              src={meetingImage}
+              src={meetingImage5}
               alt="Team Meeting"
               className="vision-image"
             />
@@ -66,7 +68,7 @@ const VisionMission = () => {
           </div>
           <div className="mission-image-wrapper">
             <img
-              src={meetingImage2}
+              src={meetingImage4}
               alt="Team Meeting"
               className="mission-image"
             />
