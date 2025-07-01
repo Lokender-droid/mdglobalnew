@@ -95,7 +95,7 @@ const Career = () => {
     <div>
       {/* Header */}
       <header className="header">
-        <h1>Jobs</h1>
+        <h1>Jobs Post</h1>
       </header>
 
       {/* Main Content */}
