@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import './testimonials.css'
+// import './testimonials.css'
+import './Testimonials.css'; // ✅ correct (matches filename)
 
 const Testimonials = () => {
   const testimonialsData = [
