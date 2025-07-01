@@ -2,11 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './filterbar.css';
 
-/**
- * Re‑usable filter bar for job listings.
- * Renders two <select> inputs for category & location and
- * forwards the selected values to the parent via callbacks.
- */
 const FilterBar = ({
   categories = [],
   locations = [],
