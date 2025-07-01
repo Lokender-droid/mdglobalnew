@@ -22,7 +22,7 @@ const ServiceSections = () => {
         {/* Heading & Paragraph Section */}
         <motion.div
           id="homepage-service-intro"
-          className="homepage-service-text-center max-w-5xl mx-auto"
+          className="homepage-service-text-center max-w-2xl mx-auto"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
