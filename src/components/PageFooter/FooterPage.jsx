@@ -79,7 +79,7 @@ const FooterPage = () => {
         "One Stop Business centre, 3floor office no. 28 inside Al ghurair corporate office near union metro station",
       ],
       Email: "hr@mdglobalhr.com",
-      PhoneNumber: "(+971) 52 498 4322, 56 503 5551",
+      PhoneNumber: "(+971) 52 498 4322,(+971) 50 4099390 ",
     },
   ];
 
