@@ -61,7 +61,7 @@ const FooterPage = () => {
     { heading: "Hospitality", path: "/" },
     { heading: "Automobile", path: "/" },
     // { heading: "Manufacturing", path: "/" },
-    // { heading: "Information Technology", path: "/" },
+    { heading: "Information Technology", path: "/" },
   ];
 
   const address = [
