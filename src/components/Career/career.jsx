@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import JobApplyForm from './JobApplyForm';
 import FilterBar from './FilterBar'; // ✅ correct
-import JobCard from './jobcard';
+import JobCard from './JobCard'; 
 import jobsData from './jobs.json';
 import './career.css';
 
