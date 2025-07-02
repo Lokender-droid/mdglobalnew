@@ -1,54 +1,52 @@
-.Header{
-    margin-bottom: 10px;
-}
-.PrivacyPolicyMain{
-    padding: 20px;
-    
-}
- .PrivacypolicyP{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 10px;
- 
-} 
-.PrivacypolicyPMain{
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-.PrivacyPolicyArticle{
-    margin-top: 30px;
-    padding: 20px;
-    margin-bottom: 30px;
-}
-.privacyPolicyheading{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-}
-.PrivacypolicyList_element{
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
 /* PrivacyPolicy.css */
-/* .privacy-banner {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+
+.PrivacyPolicyMain {
+  padding: 20px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.PrivacyPolicyArticle {
+  margin: 30px 0;
+  padding: 20px;
+  background-color: #f9fafb;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.privacyPolicyheading {
+  margin: 20px 0 10px 0;
+  color: #bd8706;
+  font-weight: 600;
+}
+
+.PrivacypolicyPMain,
+.PrivacypolicyP {
+  padding: 10px;
+  font-size: 1rem;
+  line-height: 1.6;
+  text-align: justify;
+  color: #4b4c4e;
+}
+
+.PrivacypolicyList_element {
+  margin: 8px 0;
+  padding-left: 10px;
+  color: #4b4c4e;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .PrivacyPolicyMain {
+    padding: 15px;
   }
-  
-  .privacy-heading {
-    margin-top: 0.75rem;
+
+  .privacyPolicyheading {
+    font-size: 1.25rem;
   }
-  
-  .privacy-underline {
-    margin-top: 0.75rem;
+
+  .PrivacypolicyPMain,
+  .PrivacypolicyP {
+    font-size: 0.95rem;
   }
-  
-  .privacy-main {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-  }
-  
-  .privacy-content > article {
-    margin-bottom: 2rem;
-  } */
-  
+}
