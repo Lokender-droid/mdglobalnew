@@ -25,9 +25,9 @@ const ContactPage = () => {
           <Section title="Middle East">
             <Office
               city="Dubai"
-              address="One Stop Business Centre, 3rd Floor, Office No. 28, inside Al Ghurair Corporate Office, near Union Metro Station, Dubai, UAE"
-              email="uae@example.com"
-              phone="+971-xxx-xxxxxxx"
+              address="One Stop Business centre, 3floor office no. 28 inside Al ghurair corporate office near union metro station"
+              email=" pooja@mdglobalhr.com"
+              phone="(+971) 50 409 9390"
             />
           </Section>
 
@@ -52,15 +52,15 @@ const ContactPage = () => {
           <Section title="Delhi NCR">
             <Office
               city="Gurugram"
-              address="1008 SVHB3 Tower, Metro Street, Sector 83, Gurugram"
-              email="gurugram@example.com"
-              phone="+91-xxx-xxxxxxx"
+              address="Office Add- 1008SVHB3 Tower Metro Street Sector- 83, Gurugram."
+              email="It@mdglobalhr.com"
+              phone="+91 9289007800"
             />
             <Office
               city="Ballabhgarh"
-              address="PLOT NO 9, GALI NO. 11, ADARSH NAGAR, Ballabgarh, Faridabad - 121004"
-              email="ballabhgarh@example.com"
-              phone="+91-xxx-xxxxxxx"
+              address="PLOT NO 9, GALI NO. 11, ADARSH NAGAR, Ballabgarh, Faridabad- 121004"
+              email="hrindia@mdglobalhr.com"
+              phone="+91 9319090180"
             />
             <Office
               city="Delhi"
