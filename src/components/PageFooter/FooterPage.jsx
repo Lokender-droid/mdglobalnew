@@ -42,9 +42,9 @@ const FooterPage = () => {
       Email: "hrindia@mdglobalhr.com",
       PhoneNumber: "(+91) 82850 23400, 92123 62488",
       socials: [
-        { icon: <FaFacebookF />, url: "https://www.facebook.com/mdglobalhr" },
-        { icon: <FaInstagram />, url: "https://www.instagram.com/mdglobalhr" },
-        { icon: <FaLinkedinIn />, url: "https://www.linkedin.com/company/mdglobalhr" },
+        { icon: <FaFacebookF />, url: "https://www.facebook.com/mdglobalhrconsultingindia/" },
+        { icon: <FaInstagram />, url: "https://www.instagram.com/md_globalhrindia/" },
+        { icon: <FaLinkedinIn />, url: "https://www.linkedin.com/company/md-global-hr-consulting-india" },
       ],
     },
     {
@@ -55,9 +55,9 @@ const FooterPage = () => {
       Email: "hr@mdglobalhr.com",
       PhoneNumber: "(+971) 52 498 4322,(+971) 50 4099390 ",
       socials: [
-        { icon: <FaFacebookF />, url: "https://www.facebook.com/mdglobalhr" },
-        { icon: <FaInstagram />, url: "https://www.instagram.com/mdglobalhr" },
-        { icon: <FaLinkedinIn />, url: "https://www.linkedin.com/company/mdglobalhr" },
+        { icon: <FaFacebookF />, url: "https://www.facebook.com/officialmdglobalhr/" },
+        { icon: <FaInstagram />, url: "https://www.instagram.com/official_mdglobal/" },
+        { icon: <FaLinkedinIn />, url: "https://www.linkedin.com/company/md-global-human-resource-consultingllc" },
       ],
     },
   ];
