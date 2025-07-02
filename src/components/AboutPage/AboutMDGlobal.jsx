@@ -59,39 +59,19 @@ const AboutMDGlobal = () => {
               MD Global Human Resource Consulting
             </motion.h1>
             <motion.p className="mdg-paragraph" variants={textVariants}>
-              Established in 2024, MD Global HR Consulting is a leading
-              recruitment and workforce solutions firm, recognised among the
-              finest in India and the GCC. We specialise in delivering
-              customised hiring solutions that align with our clients’ business
-              objectives and evolving workforce needs.
+              At MD Global HR Consulting, we help businesses grow by providing skilled professionals who truly fit the role and the company. Our solutions are built to be flexible, fast, and future-ready, whether you're hiring for a single role or building an entire team. From strategic recruitment to payroll and staffing, we simplify HR so our clients can focus on what they do best: running their business.
             </motion.p>
 
             <motion.p className="mdg-paragraph" variants={textVariants}>
-              With over 20,000 successful placements across diverse sectors,
-              including IT, Non-IT, Retail, E-commerce, Digital, BFSI, FMCG,
-              Healthcare, and Manpower Supply, MD Global is a trusted partner
-              for scalable and strategic talent acquisition.
+              We take pride in our strong foundation, which comes from our association with Balaji Manpower Recruitment Pvt. Ltd, a respected name in the industry with over 17 years of experience in manpower and staffing services. As a part of the MD Global Group, Balaji’s legacy has played a key role in shaping our network, credibility, and operational excellence. Thanks to this foundation, MD Global, established in 2024, was able to quickly earn the trust of 20,000 clients across India and the GCC.
             </motion.p>
             <motion.p className="mdg-paragraph" variants={textVariants}>
-              Consistently ranked among the Top 10 recruitment agencies in
-              India, we offer deep expertise in permanent staffing, C2C
-              (Corp-to-Corp), and C2H (Contract-to-Hire) models, tailored to
-              address the demands of today’s fast-paced business landscape. Our
-              clientele ranges from agile startups to global Fortune 500
-              companies, all relying on our domain knowledge, strategic hiring
-              approach, and seamless execution.
+              With services covering permanent staffing, C2C/C2H hiring, payroll outsourcing, and project-based manpower, we cater to industries like IT, Non-IT, BFSI, E-commerce, Healthcare, Retail, and Manufacturing. Our recruitment process is backed by ISO 9001:2015-certified systems, ensuring high-quality delivery, compliance, and transparency at every stage.
             </motion.p>
             <motion.p className="mdg-paragraph" variants={textVariants}>
-              With a strong presence across India and the GCC, MD Global is
-              proudly positioned among the Top 5 HR consultancies, delivering
-              end-to-end recruitment, staffing, and payroll solutions that
-              enhance operational efficiency and long-term performance.
+              Whether you're a startup or a Fortune 500 company, MD Global is here to help you build teams that drive success.
             </motion.p>
-            <motion.p className="mdg-paragraph" variants={textVariants}>
-              We are ISO 9001:2015 certified, ensuring that all our processes
-              meet the highest standards of quality, compliance, and consistency
-              across every engagement.
-            </motion.p>
+            
           </div>
 
           {/* Image Section */}
