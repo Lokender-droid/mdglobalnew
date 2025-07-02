@@ -39,7 +39,7 @@ const HomePage = () => {
             transition={{ delay: 0.5, duration: 0.8 }}
             className="text-3xl md:text-5xl font-extrabold text-white drop-shadow-[0_5px_25px_rgba(0,0,0,0.8)] mb-6 leading-tight animate__animated animate__fadeIn animate__delay-1s"
           >
-            Where Talent Meets Opportunity
+            Where Every Search is a Signature Solutions
           </motion.h1>
 
           {/* Animated Paragraph */}
@@ -49,7 +49,7 @@ const HomePage = () => {
             transition={{ delay: 0.7, duration: 0.8 }}
             className="text-base md:text-2xl text-white mb-8 animate__animated animate__fadeIn animate__delay-2s"
           >
-            Empowering businesses. Transforming careers.
+            Empowering businesses. We Build. You Achieve.
           </motion.p>
         </div>
       </section>
