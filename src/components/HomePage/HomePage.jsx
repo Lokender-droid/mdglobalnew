@@ -49,7 +49,7 @@ const HomePage = () => {
             transition={{ delay: 0.7, duration: 0.8 }}
             className="text-base md:text-2xl text-white mb-8 animate__animated animate__fadeIn animate__delay-2s"
           >
-            Empowering businesses. We Build. You Achieve.
+           We Build. You Achieve.
           </motion.p>
         </div>
       </section>

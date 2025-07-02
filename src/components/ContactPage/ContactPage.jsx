@@ -12,7 +12,7 @@ import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from 'react-icons/fa';
 const ContactPage = () => {
   return (
     <div className="contact-wrapper">
-      <h1 className="contact-heading">📍 Contact Us</h1>
+      <h1 className="contact-heading">Contact Us</h1>
 
       <div className="contact-grid">
         {/* UAE Office */}

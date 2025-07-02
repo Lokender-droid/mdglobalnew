@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 // import officeImg from "./../../assets/office-730681_1920.jpg";
-import officeImg1 from "./../../assets/office-730681_19201.jpg"
+import officeImg1 from "./../../assets/office-730681_19201.jpg";
 import "./AboutMDGlobal.css";
 
 const AboutMDGlobal = () => {
@@ -59,20 +59,38 @@ const AboutMDGlobal = () => {
               MD Global Human Resource Consulting
             </motion.h1>
             <motion.p className="mdg-paragraph" variants={textVariants}>
-              Established in 2024, MD Global HR Consulting is a leading recruitment and workforce solutions firm, recognised among the finest in India and the GCC. We specialise in delivering customised hiring solutions that align with our clients’ business objectives and evolving workforce needs.
+              Established in 2024, MD Global HR Consulting is a leading
+              recruitment and workforce solutions firm, recognised among the
+              finest in India and the GCC. We specialise in delivering
+              customised hiring solutions that align with our clients’ business
+              objectives and evolving workforce needs.
             </motion.p>
 
             <motion.p className="mdg-paragraph" variants={textVariants}>
-              With over 20,000 successful placements across diverse sectors, including IT, Non-IT, Retail, E-commerce, Digital, BFSI, FMCG, Healthcare, and Manpower Supply, MD Global is a trusted partner for scalable and strategic talent acquisition.
+              With over 20,000 successful placements across diverse sectors,
+              including IT, Non-IT, Retail, E-commerce, Digital, BFSI, FMCG,
+              Healthcare, and Manpower Supply, MD Global is a trusted partner
+              for scalable and strategic talent acquisition.
             </motion.p>
             <motion.p className="mdg-paragraph" variants={textVariants}>
-              Consistently ranked among the Top 10 recruitment agencies in India, we offer deep expertise in permanent staffing, C2C (Corp-to-Corp), and C2H (Contract-to-Hire) models, tailored to address the demands of today’s fast-paced business landscape. Our clientele ranges from agile startups to global Fortune 500 companies, all relying on our domain knowledge, strategic hiring approach, and seamless execution.
+              Consistently ranked among the Top 10 recruitment agencies in
+              India, we offer deep expertise in permanent staffing, C2C
+              (Corp-to-Corp), and C2H (Contract-to-Hire) models, tailored to
+              address the demands of today’s fast-paced business landscape. Our
+              clientele ranges from agile startups to global Fortune 500
+              companies, all relying on our domain knowledge, strategic hiring
+              approach, and seamless execution.
             </motion.p>
             <motion.p className="mdg-paragraph" variants={textVariants}>
-              With a strong presence across India and the GCC, MD Global is proudly positioned among the Top 5 HR consultancies, delivering end-to-end recruitment, staffing, and payroll solutions that enhance operational efficiency and long-term performance.
+              With a strong presence across India and the GCC, MD Global is
+              proudly positioned among the Top 5 HR consultancies, delivering
+              end-to-end recruitment, staffing, and payroll solutions that
+              enhance operational efficiency and long-term performance.
             </motion.p>
             <motion.p className="mdg-paragraph" variants={textVariants}>
-              We are ISO 9001:2015 certified, ensuring that all our processes meet the highest standards of quality, compliance, and consistency across every engagement.
+              We are ISO 9001:2015 certified, ensuring that all our processes
+              meet the highest standards of quality, compliance, and consistency
+              across every engagement.
             </motion.p>
           </div>
 
