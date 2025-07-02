@@ -2,47 +2,17 @@ import React from "react";
 import { motion } from "framer-motion";
 import "./FooterPage.css";
 import logo from "../../assets/images/Logo/Mdglobal_main.png";
-import { FaMapMarkerAlt, FaEnvelope, FaPhoneAlt } from "react-icons/fa";
+import { FaMapMarkerAlt, FaEnvelope, FaPhoneAlt, FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const FooterPage = () => {
   const ImportantPages = [
-    {
-      heading: "Permanent Staffing",
-      path: "/services/Permanent-Staffing-solution",
-    },
-    {
-      heading: "Contractual Staffing",
-      path: "/services/Contractual-Staffing-Services",
-    },
-    // {
-    //   heading: 'Job Consultancy in Dubai',
-    //   path: '/job-consultancy-in-dubai'
-    // },
-    // {
-    //   heading: 'Recruitment Agencies In Dubai',
-    //   path: '/recruitment-agencies-in-dubai',
-    // },
-    {
-      heading: "Outsourcing Companies in Dubai",
-      path: "/outsourcing-companies-in-dubai",
-    },
-    // {
-    //   heading: 'Top IT Recruitment Agencies in Dubai',
-    //   path: '/it-recruitment-agencies-in-dubai',
-    // },
-    {
-      heading: "Executive Search",
-      path: "/services/Executive-Search",
-    },
-    {
-      heading: "Blue coller Staffing",
-      path: "/services/Blue-Collar-Staffing",
-    },
-    {
-      heading: "Leadership hiring",
-      path: "/services/Leadership-Hiring",
-    },
+    { heading: "Permanent Staffing", path: "/services/Permanent-Staffing-solution" },
+    { heading: "Contractual Staffing", path: "/services/Contractual-Staffing-Services" },
+    { heading: "Outsourcing Companies in Dubai", path: "/outsourcing-companies-in-dubai" },
+    { heading: "Executive Search", path: "/services/Executive-Search" },
+    { heading: "Blue coller Staffing", path: "/services/Blue-Collar-Staffing" },
+    { heading: "Leadership hiring", path: "/services/Leadership-Hiring" },
   ];
 
   const QuickLinks = [
@@ -60,7 +30,6 @@ const FooterPage = () => {
     { heading: "Healthcare", path: "/" },
     { heading: "Hospitality", path: "/" },
     { heading: "Automobile", path: "/" },
-    // { heading: "Manufacturing", path: "/" },
     { heading: "Information Technology", path: "/" },
   ];
 
@@ -68,10 +37,15 @@ const FooterPage = () => {
     {
       place: "India",
       OfficeAddress: [
-        `PLOT NO 9, GALI NO. 11, ADARSH NAGAR, Ballabgarh, Faridabad-121004`,
+        "PLOT NO 9, GALI NO. 11, ADARSH NAGAR, Ballabgarh, Faridabad-121004",
       ],
       Email: "hrindia@mdglobalhr.com",
       PhoneNumber: "(+91) 82850 23400, 92123 62488",
+      socials: [
+        { icon: <FaFacebookF />, url: "https://www.facebook.com/mdglobalhr" },
+        { icon: <FaInstagram />, url: "https://www.instagram.com/mdglobalhr" },
+        { icon: <FaLinkedinIn />, url: "https://www.linkedin.com/company/mdglobalhr" },
+      ],
     },
     {
       place: "UAE Dubai",
@@ -80,6 +54,11 @@ const FooterPage = () => {
       ],
       Email: "hr@mdglobalhr.com",
       PhoneNumber: "(+971) 52 498 4322,(+971) 50 4099390 ",
+      socials: [
+        { icon: <FaFacebookF />, url: "https://www.facebook.com/mdglobalhr" },
+        { icon: <FaInstagram />, url: "https://www.instagram.com/mdglobalhr" },
+        { icon: <FaLinkedinIn />, url: "https://www.linkedin.com/company/mdglobalhr" },
+      ],
     },
   ];
 
@@ -109,9 +88,8 @@ const FooterPage = () => {
         animate="visible"
         variants={sectionVariants}
       >
-        {/* Main Footer Grid */}
+        {/* Footer Grid */}
         <div className="footer-grid">
-          {/* Logo & About Section */}
           <div className="footer-section">
             <motion.img
               src={logo}
@@ -121,20 +99,13 @@ const FooterPage = () => {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.2, duration: 0.5 }}
             />
-            <p className="logoP ">
+            <p className="logoP">
               MD Global Human Resource Consulting LLC is a leading recruitment
               agency offering end-to-end recruitment services across India and
-              the UAE. 
+              the UAE.
             </p>
-            <motion.p
-              className="footer-description"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 0.3, duration: 0.5 }}
-            ></motion.p>
           </div>
 
-          {/* Important Pages */}
           <div className="footer-section">
             <h3 className="footer-heading">IMPORTANT PAGES</h3>
             <ul className="footer-list">
@@ -153,7 +124,6 @@ const FooterPage = () => {
             </ul>
           </div>
 
-          {/* Quick Links */}
           <div className="footer-section">
             <h3 className="footer-heading">QUICK LINKS</h3>
             <ul className="footer-list">
@@ -172,7 +142,6 @@ const FooterPage = () => {
             </ul>
           </div>
 
-          {/* Our Verticals */}
           <div className="footer-section">
             <h3 className="footer-heading">OUR VERTICALS</h3>
             <ul className="footer-list">
@@ -192,59 +161,67 @@ const FooterPage = () => {
           </div>
         </div>
 
-        {/* Address Section */}
+        {/* Address Cards */}
         <div className="footer-address-section">
           {address.map((loc, index) => (
-            // <Link
-            // to="/contact">
             <motion.div
               key={index}
-              className="footer-address "
+              className="footer-address"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.4 + 0.2 * index, duration: 0.5 }}
               whileHover={{ y: -3 }}
             >
               <h4 className="footer-subheading">{loc.place}</h4>
+
               <div className="footer-address-text">
                 <span className="footer-label">
-                  <span className="footer-icon-address h-2 w-10 flex items-center justify-center rounded-full  mr-2">
+                  <span className="footer-icon-address h-2 w-10 flex items-center justify-center rounded-full mr-2">
                     <FaMapMarkerAlt className="text-white" />
                   </span>
-                  {Array.isArray(loc.OfficeAddress)
-                    ? loc.OfficeAddress.map((addr, i) => (
-                        <div key={i} className="">
-                          {addr}
-                        </div>
-                      ))
-                    : loc.OfficeAddress}
+                  {loc.OfficeAddress.map((addr, i) => (
+                    <div key={i}>{addr}</div>
+                  ))}
                 </span>
               </div>
+
               <div className="footer-address-text">
-                <Link
-                  href={`mailto:${loc.Email}`}
-                  className="footer-email flex"
-                >
-                  <span className="footer-icon-address h-2 w-8 flex items-center justify-center rounded-full ">
+                <Link to={`mailto:${loc.Email}`} className="footer-email flex">
+                  <span className="footer-icon-address h-2 w-8 flex items-center justify-center rounded-full">
                     <FaEnvelope className="text-white" />
                   </span>
-                  <p className="text-[16px]"> {loc.Email}</p>
+                  <p className="text-[16px]">{loc.Email}</p>
                 </Link>
               </div>
+
               <p className="footer-address-text">
                 <span className="footer-label">
-                  <span className="footer-icon-address h-2 w-10 flex items-center justify-center rounded-full ">
+                  <span className="footer-icon-address h-2 w-10 flex items-center justify-center rounded-full">
                     <FaPhoneAlt className="text-white" />
                   </span>
                   {loc.PhoneNumber}
                 </span>
               </p>
+
+              {/* Social Media Icons */}
+              <div className="footer-social-icons">
+                {loc.socials?.map((social, i) => (
+                  <a
+                    key={i}
+                    href={social.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="social-icon-wrapper"
+                  >
+                    {social.icon}
+                  </a>
+                ))}
+              </div>
             </motion.div>
-            // </Link>
           ))}
         </div>
 
-        {/* Footer Copyright */}
+        {/* Copyright */}
         <motion.div
           className="footer-copyright"
           initial={{ opacity: 0 }}

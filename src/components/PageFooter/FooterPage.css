@@ -214,3 +214,28 @@
 .footer-icon-address{
   margin:0.5rem;
 }
+
+.footer-social-icons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.75rem;
+  margin-top: 0.75rem;
+}
+
+.social-icon-wrapper {
+  width: 36px;
+  height: 36px;
+  border: 2px solid white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.social-icon-wrapper:hover {
+  background: #bd8706;
+  color: black;
+  transform: scale(1.1);
+}
