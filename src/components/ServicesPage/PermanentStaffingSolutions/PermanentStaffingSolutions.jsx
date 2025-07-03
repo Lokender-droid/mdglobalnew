@@ -161,6 +161,11 @@ const PermanentStaffingSolutions = () => {
       title: "Leadership Hiring",
       desc: `Our Leadership Hiring division places transformational leaders across functions and industries. We recruit decision-makers for roles such as General Managers, Strategy Heads, Regional Directors, and Division Chiefs. These are professionals who drive change, inspire teams, and foster innovation. With deep industry knowledge and customised search strategies, we ensure alignment between your long-term goals and the vision of your incoming leadership.`,
     },
+    {
+      icon: <FaGraduationCap />,
+      title: "Campus Placement",
+      desc: `Future leaders are nurtured from day one, and our Campus Hiring Programs ensure you don’t miss the opportunity to attract them. We partner with top-tier engineering colleges, B-schools, and universities across India to help companies hire high-potential freshers. Our team manages everything from employer branding, assessment design, and pre-placement talks to onboarding. We help you build a strong early talent pipeline that’s ready to adapt, grow, and lead in the years to come.`,
+    },
   ];
 
   const ConsultingDeliversPermanent = [
@@ -225,7 +230,7 @@ const PermanentStaffingSolutions = () => {
             className="text-3xl font-semibold tracking-tight relative z-10 mt-2 text-center px-4"
             variants={headerVariants}
           >
-             Permanent Staffing Solutions
+            Permanent Staffing Solutions
           </motion.h1>
           <motion.div
             className="w-16 h-1 bg-white/80 mt-2 rounded-full z-10"
