@@ -2,6 +2,41 @@ import { motion } from "framer-motion";
 import "./PermanentStaffingSolutions.css";
 import img from "./../../../assets/images/About/Banner.jpg";
 import img2 from "./../../../assets/Permanent Staffing/PermanentStaffing.jpeg";
+import { FaUserTie, FaUsersCog, FaUserFriends } from "react-icons/fa";
+import { FaPhoneAlt, FaEnvelope, FaGlobe } from "react-icons/fa";
+import {
+  FaSearch,
+  FaDatabase,
+  FaCheckDouble,
+  FaCalendarCheck,
+  FaFileSignature,
+  FaHandshake,
+} from "react-icons/fa";
+
+import {
+  FaLaptopCode,
+  FaShoppingCart,
+  FaUniversity,
+  FaBoxOpen,
+  FaHeartbeat,
+  FaIndustry,
+  FaPlane,
+  FaBullhorn,
+  FaGraduationCap,
+  FaBuilding,
+  FaBolt,
+  FaGavel,
+} from "react-icons/fa";
+
+import {
+  FaUsers,
+  FaMapMarkedAlt,
+  FaChalkboardTeacher,
+  FaClipboardCheck,
+  FaFileAlt,
+  FaUserPlus,
+  FaSyncAlt,
+} from "react-icons/fa";
 
 const PermanentStaffingSolutions = () => {
   const headerVariants = {
@@ -20,6 +55,113 @@ const PermanentStaffingSolutions = () => {
       transition: { duration: 0.8, when: "beforeChildren" },
     },
   };
+
+  const processSteps = [
+    {
+      icon: <FaUsers />,
+      title: "Workforce Planning",
+      desc: "We understand your entry-level hiring targets, skill sets required, and timelines.",
+    },
+    {
+      icon: <FaMapMarkedAlt />,
+      title: "Institutional Mapping",
+      desc: "Based on your criteria, we shortlist colleges and courses aligned to your needs.",
+    },
+    {
+      icon: <FaChalkboardTeacher />,
+      title: "Pre-Placement Engagement",
+      desc: "Virtual/in-person sessions, webinars, employer branding decks, and Q&A rounds to connect with students.",
+    },
+    {
+      icon: <FaClipboardCheck />,
+      title: "Assessment & Interviews",
+      desc: "Design and execution of tests, coding challenges, case studies, and panel interviews.",
+    },
+    {
+      icon: <FaFileAlt />,
+      title: "Selection & Offer Rollout",
+      desc: "Managing documentation, pre-offer counselling, and rolling out offer letters in coordination with college placement cells.",
+    },
+    {
+      icon: <FaUserPlus />,
+      title: "Onboarding & Induction",
+      desc: "We help organise orientation programs, buddy systems, and onboarding kits for a smooth start.",
+    },
+    {
+      icon: <FaSyncAlt />,
+      title: "Post-Hiring Follow-up",
+      desc: "Regular feedback from hired students, colleges, and your HR team to ensure a high joining ratio and engagement.",
+    },
+  ];
+
+  const industries = [
+    { icon: <FaLaptopCode />, title: "Information Technology (IT) & Digital" },
+    { icon: <FaShoppingCart />, title: "Retail & E-commerce" },
+    {
+      icon: <FaUniversity />,
+      title: "BFSI (Banking, Financial Services, Insurance)",
+    },
+    { icon: <FaBoxOpen />, title: "FMCG & Consumer Durables" },
+    { icon: <FaHeartbeat />, title: "Healthcare & Life Sciences" },
+    { icon: <FaIndustry />, title: "Manufacturing & Engineering" },
+    { icon: <FaPlane />, title: "Hospitality & Aviation" },
+    { icon: <FaBullhorn />, title: "Telecom, Media & Advertising" },
+    { icon: <FaGraduationCap />, title: "Education & EdTech" },
+    { icon: <FaBuilding />, title: "Real Estate & Infrastructure" },
+    { icon: <FaBolt />, title: "Energy & Utilities" },
+    { icon: <FaGavel />, title: "Public Sector & Government Projects" },
+  ];
+
+  const steps = [
+    {
+      icon: <FaSearch />,
+      title: "Talent Requirement Analysis",
+      desc: "We understand your roles, business goals, team dynamics, and industry needs.",
+    },
+    {
+      icon: <FaDatabase />,
+      title: "Sourcing Strategy",
+      desc: "From headhunting to database mining, campus outreach to digital sourcing—we leave no talent pool untapped.",
+    },
+    {
+      icon: <FaCheckDouble />,
+      title: "Screening & Shortlisting",
+      desc: "Multi-level vetting based on technical skills, behavioural fit, and leadership potential.",
+    },
+    {
+      icon: <FaCalendarCheck />,
+      title: "Interview Coordination & Feedback",
+      desc: "Seamless scheduling, communication, and coordination with hiring managers.",
+    },
+    {
+      icon: <FaFileSignature />,
+      title: "Offer Management & Onboarding",
+      desc: "Transparent negotiations, documentation, and engagement until the candidate joins.",
+    },
+    {
+      icon: <FaHandshake />,
+      title: "Post-Placement Engagement",
+      desc: "We stay involved to ensure successful integration and retention.",
+    },
+  ];
+
+  const expertise = [
+    {
+      icon: <FaUserTie />,
+      title: "Executive Search",
+      desc: `Our Executive Search services are crafted for leadership roles that define direction and drive results. We discreetly recruit C-suite executives such as CEOs, CFOs, CHROs, COOs, and other board-level professionals. These strategic hires go beyond qualifications; we focus on leadership style, cultural compatibility, and long-term vision. Through global leadership networks, succession planning frameworks, and behaviour-based evaluations, we help you onboard top-tier talent that transforms your business from the top down.`,
+    },
+    {
+      icon: <FaUsersCog />,
+      title: "Senior & Middle Management Hiring",
+      desc: `We specialise in hiring experienced professionals who manage operations, lead teams, and deliver on business objectives. Our Senior & Middle Management recruitment covers roles such as department heads, engineering leads, sales and marketing managers, regional heads, and more. These individuals are not only technically sound but are also equipped to manage change, improve productivity, and contribute to organisational growth.`,
+    },
+    {
+      icon: <FaUserFriends />,
+      title: "Leadership Hiring",
+      desc: `Our Leadership Hiring division places transformational leaders across functions and industries. We recruit decision-makers for roles such as General Managers, Strategy Heads, Regional Directors, and Division Chiefs. These are professionals who drive change, inspire teams, and foster innovation. With deep industry knowledge and customised search strategies, we ensure alignment between your long-term goals and the vision of your incoming leadership.`,
+    },
+  ];
 
   const ConsultingDeliversPermanent = [
     {
@@ -83,7 +225,7 @@ const PermanentStaffingSolutions = () => {
             className="text-3xl font-semibold tracking-tight relative z-10 mt-2 text-center px-4"
             variants={headerVariants}
           >
-            Your Trusted Global Partner for Permanent Staffing Solutions
+             Permanent Staffing Solutions
           </motion.h1>
           <motion.div
             className="w-16 h-1 bg-white/80 mt-2 rounded-full z-10"
@@ -99,65 +241,96 @@ const PermanentStaffingSolutions = () => {
             Are you looking for Expert Permanent Staffing Solutions?
           </h2>
           <p className="ChoosePermanentPMP">
-            At MD Global HR Consulting, we recognize that your organization’s
-            success hinges on the talent you employ. The foundation of any
-            thriving business is built on skilled, dedicated, and loyal staff
-            who are committed to driving the company forward. That’s where our
-            expertise in staffing solutions comes in, making us a trusted
-            partner for organizations seeking effective workforce strategies.
+            Hiring the right people isn’t just about filling roles—it’s about
+            building a future-ready organisation. At MD Global HR Consulting,
+            our Permanent Staffing Solutions are designed to help businesses
+            attract, engage, and retain professionals who make a lasting impact.
           </p>
           <p className="ChoosePermanentPMP">
-            Whether you’re a startup or an established corporation, finding the
-            right talent can be challenging. At MD Global HR Consulting, we
-            bridge the gap between skilled professionals and innovative
-            companies. With our in-depth market understanding and commitment to
-            delivering personalized staffing solutions, we ensure that your
-            business has access to the best talent available, no matter where
-            you are in the world.
+            With 17+ years of experience and recognition as a Top 5 HR
+            consultancy in India, we specialise in executive hiring, leadership
+            recruitment, senior-level placements, and campus hiring across India
+            and the GCC. Whether you're scaling up a team, planning for
+            succession, or hiring fresh talent, we provide end-to-end
+            recruitment services tailored to your vision.
           </p>
         </section>
 
-        <section className="w-full py-8 px-4 sm:px-6 lg:px-8">
-          <div className="max-w-7xl mx-auto space-y-8">
-            <h2 className="choose-permanent-staffing">
-              Why Choose Permanent Staffing?
-            </h2>
-            <div className="flex flex-col lg:flex-row items-center gap-6 lg:gap-8">
-              <div className="w-full lg:w-1/2 space-y-4 text-gray-700">
-                <p className="ChoosePermanentPMP">
-                  Permanent staffing is about building a workforce that stays
-                  with your organization for the long haul, driving its success
-                  and growth. Permanent employees are more than just
-                  resources—they are integral to a company's performance,
-                  innovation, and culture.
-                </p>
-                <p className="ChoosePermanentPMP">
-                  Hiring the right talent for permanent positions is crucial. As
-                  an employer, you seek individuals who not only fit into your
-                  team but also align with your company’s vision and contribute
-                  to its long-term goals.
-                </p>
-                <p className="ChoosePermanentPMP">
-                  For employees, permanent roles offer stability and a clear
-                  career path, which is why getting the hiring process right
-                  from the start is essential.
-                </p>
-                <p className="ChoosePermanentPMP">
-                  At MD Global HR Consulting, we understand this responsibility.
-                  We ensure that the candidates we place in your organization
-                  are not only skilled and qualified but also aligned with your
-                  company’s culture, values, and objectives. Our goal is to help
-                  you build a strong, dedicated, and effective team that drives
-                  your organization forward.
-                </p>
-              </div>
-              <div className="w-full lg:w-1/2">
-                <img
-                  src={img2}
-                  alt="Recruitment"
-                  className="w-full h-auto max-w-full rounded-xl shadow-lg object-cover"
-                />
-              </div>
+        {/* Our Permanent Hiring Expertise */}
+
+        <section className="hiring-section">
+          <div className="hiring-container">
+            <h3 className="hiring-heading">
+              Our Permanent Hiring Expertise: Thoughtful. Thorough. Targeted.
+            </h3>
+
+            <div className="hiring-grid">
+              {expertise.map((item, index) => (
+                <div className="hiring-card" key={index}>
+                  <div className="hiring-icon">{item.icon}</div>
+                  <div className="hiring-text">
+                    <h4>{item.title}</h4>
+                    <p>{item.desc}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Our End to End Process */}
+
+        <section className="process-section">
+          <div className="process-container">
+            <h3 className="process-heading">Our End-to-End Process</h3>
+            <div className="process-grid">
+              {steps.map((step, index) => (
+                <div className="process-card" key={index}>
+                  <div className="process-icon">{step.icon}</div>
+                  <div className="process-text">
+                    <h4>{step.title}</h4>
+                    <p>{step.desc}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Industries We Serve */}
+
+        <section className="industries-section">
+          <div className="industries-container">
+            <h3 className="industries-heading">Industries We Serve</h3>
+            <p className="industries-subtext">
+              We provide permanent recruitment for roles across:
+            </p>
+            <div className="industries-grid">
+              {industries.map((industry, index) => (
+                <div className="industry-card" key={index}>
+                  <div className="industry-icon">{industry.icon}</div>
+                  <p className="industry-title">{industry.title}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Our Process */}
+
+        <section className="campus-process-section">
+          <div className="campus-process-container">
+            <h3 className="campus-process-heading">Our Process</h3>
+            <div className="campus-process-grid">
+              {processSteps.map((step, index) => (
+                <div className="campus-process-card" key={index}>
+                  <div className="campus-process-icon">{step.icon}</div>
+                  <div className="campus-process-text">
+                    <h4>{step.title}</h4>
+                    <p>{step.desc}</p>
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
         </section>
