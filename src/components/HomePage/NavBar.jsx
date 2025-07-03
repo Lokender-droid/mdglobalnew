@@ -49,7 +49,7 @@ const NavBar = () => {
           <div className="hamburger md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="text-gray-700 hover:text-blue-600 focus:outline-none"
+              className="text-[#bd8706] hover:text-blue-600 focus:outline-none"
             >
               <svg
                 className="h-6 w-6"
