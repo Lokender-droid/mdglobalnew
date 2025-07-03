@@ -7,28 +7,28 @@ const OurServices = () => {
   const servicesWeOffer = [
     {
       heading: "Contractural Hiring",
-      text: "In today's fast-paced business environment, companies need to adapt quickly to the changing demands of the market. ",
+      text: "In today's fast-paced business environment, companies need to adapt quickly to the changing demands of the market.",
       imageURL:
         "https://www.corporatestalwarts.com/wp-content/uploads/2025/03/Rent-a-Recruiter-768x512.webp",
       to: "/services/Executive-Search",
     },
     {
       heading: "Permanent Staffing",
-      text: "Hiring the right people isn’t just about filling roles—it’s about building a future-ready organisation. ",
+      text: "Hiring the right people isn’t just about filling roles—it’s about building a future-ready organisation.",
       imageURL:
         "https://www.corporatestalwarts.com/wp-content/uploads/2025/03/Virtual-Hiring-768x512.webp",
       to: "/services/Permanent-Staffing-solution",
     },
     {
-      heading: "Campus Placemenet",
-      text: "Future leaders are nurtured from day one, and our Campus Hiring Programs ensure you don’t miss the opportunity to attract them.  ",
+      heading: "Campus Placement",
+      text: "Future leaders are nurtured from day one, and our Campus Hiring Programs ensure you don’t miss the opportunity to attract them.",
       imageURL:
         "https://www.corporatestalwarts.com/wp-content/uploads/2025/03/RPO-Outsourcing-768x512.webp",
       to: "/services/Leadership-Hiring",
     },
     {
-      heading: "Payroll ",
-      text: "Managing payroll is more than just calculating salaries—it’s about accuracy, compliance, and trust. ",
+      heading: "Payroll",
+      text: "Managing payroll is more than just calculating salaries—it’s about accuracy, compliance, and trust.",
       imageURL:
         "https://www.corporatestalwarts.com/wp-content/uploads/2025/03/Tech-and-Non-Tech-Hiring-768x512.webp",
       to: "/services/Contractual-Staffing-Services",
@@ -66,7 +66,7 @@ const OurServices = () => {
             <motion.div
               className="custom-service-card"
               key={index}
-              initial={{ opacity: 1, y: 50 }}
+              initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
               whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.4, ease: "easeOut" }}
@@ -78,12 +78,8 @@ const OurServices = () => {
               />
               <div className="card-content">
                 <h2 className="card-heading">{service.heading}</h2>
-                <p className="card-text w-full h-14">{service.text}</p>{" "}
-                <Link
-                  to={service.to}
-                  className="card-button w-36 h-12 flex items-center justify-center text-center "
-                  whileHover={{ scale: 1.05 }}
-                >
+                <p className="card-text">{service.text}</p>
+                <Link to={service.to} className="card-button">
                   Read More
                 </Link>
               </div>
