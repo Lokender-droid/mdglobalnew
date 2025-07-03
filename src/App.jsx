@@ -8,6 +8,7 @@ import AboutPage from './components/AboutPage/AboutPage';
 import ServicesPage from './components/ServicesPage/ServicesPage';
 import ContactPage from './components/ContactPage/ContactPage';
 import ContractualStaffingServices from './components/ServicesPage/ContractualStaffingServices/ContractualStaffingServices';
+// import PayrollService from './components/ServicesPage/PayrollService/PayrollService';
 import PermanentStaffingSolutions from './components/ServicesPage/PermanentStaffingSolutions/PermanentStaffingSolutions';
 import LeadershipHiringServices from './components/ServicesPage/LeadershipHiringServices/LeadershipHiringServices';
 import OutsourcingCompaniesInDubai from './components/ServicesPage/OutsourcingCompaniesInDubai/OutsourcingCompaniesInDubai';
@@ -56,6 +57,10 @@ const App = () => {
           path: '/services/Executive-Search',
           element: <ExecutiveSearchServices />,
         },
+        // {
+        //   path: '/services/PayrollService',
+        //   element:<PayrollService/>,
+        // },
         {
           path: '/services/Permanent-Staffing-solution',
           element: <PermanentStaffingSolutions />,

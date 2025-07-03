@@ -9,7 +9,7 @@ const AppLayout = () => {
   return (
       <div className=''>
        <NavBar></NavBar>   
-       <ScrollToTop /> {/* ✅ This scrolls to top on every route change */}
+       <ScrollToTop /> 
        <Outlet/>
       <FooterPage></FooterPage>
     </div>
