@@ -126,6 +126,7 @@
 }
 
 .industries-section-card {
+  border: 1px solid #bd8706;
   background-color: #d7dce121;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -136,9 +137,6 @@
   transition: box-shadow 0.3s ease;
 }
 
-.industries-section-card:hover {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
 
 .industries-section-icon {
   font-size: 50px;

@@ -71,7 +71,7 @@ const OutsourcingCompaniesInDubai = () => {
         </div>
       </motion.section>
 
-      <main className="ocd-main">
+      <main className="ocd-main ocd-container">
         <section className="ocd-intro">
           <h2 className="ocd-section-title">Outsourcing Companies in Dubai</h2>
           <p className="ocd-intro-text">
@@ -149,18 +149,6 @@ const OutsourcingCompaniesInDubai = () => {
             ))}
           </div>
         </section>
-
-        <section className="ocd-contact">
-          <p className="ocd-contact-text">
-            Call: <strong>(+971) 52 498 4322, 56 503 5551</strong> | Website:
-            <a href="https://mdglobalhr.com" className="ocd-contact-link">
-              mdglobalhr.com
-            </a>{" "}
-            | Email: <span className="ocd-contact-email">hr@mdglobalhr.com</span>
-          </p>
-        </section>
-
-        
       </main>
     </>
   );

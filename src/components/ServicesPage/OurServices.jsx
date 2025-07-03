@@ -7,28 +7,28 @@ const OurServices = () => {
   const servicesWeOffer = [
     {
       heading: "Contractural Hiring",
-      text: "In an economy that demands flexibility and speed, contractual staffing has emerged as a critical workforce strategy for modern businesses.",
+      text: "In today's fast-paced business environment, companies need to adapt quickly to the changing demands of the market. ",
       imageURL:
         "https://www.corporatestalwarts.com/wp-content/uploads/2025/03/Rent-a-Recruiter-768x512.webp",
       to: "/services/Executive-Search",
     },
     {
       heading: "Permanent Staffing",
-      text: "Providing long-term talent solutions to ensure stability and growth for your team.",
+      text: "Hiring the right people isn’t just about filling roles—it’s about building a future-ready organisation. ",
       imageURL:
         "https://www.corporatestalwarts.com/wp-content/uploads/2025/03/Virtual-Hiring-768x512.webp",
       to: "/services/Permanent-Staffing-solution",
     },
     {
       heading: "Campus Placemenet",
-      text: "Curating distinguished professionals for pivotal leadership roles.",
+      text: "Future leaders are nurtured from day one, and our Campus Hiring Programs ensure you don’t miss the opportunity to attract them.  ",
       imageURL:
         "https://www.corporatestalwarts.com/wp-content/uploads/2025/03/RPO-Outsourcing-768x512.webp",
       to: "/services/Leadership-Hiring",
     },
     {
       heading: "Payroll ",
-      text: "Flexible staffing solutions to meet dynamic business demands.",
+      text: "Managing payroll is more than just calculating salaries—it’s about accuracy, compliance, and trust. ",
       imageURL:
         "https://www.corporatestalwarts.com/wp-content/uploads/2025/03/Tech-and-Non-Tech-Hiring-768x512.webp",
       to: "/services/Contractual-Staffing-Services",
@@ -82,7 +82,7 @@ const OurServices = () => {
                 <Link
                   to={service.to}
                   className="card-button w-36 h-12 flex items-center justify-center text-center "
-                  // whileHover={{ scale: 1.05 }}
+                  whileHover={{ scale: 1.05 }}
                 >
                   Read More
                 </Link>
