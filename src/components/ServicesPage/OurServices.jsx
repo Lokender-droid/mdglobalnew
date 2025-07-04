@@ -10,7 +10,7 @@ const OurServices = () => {
       text: "In today's fast-paced business environment, companies need to adapt quickly to the changing demands of the market.",
       imageURL:
         "https://www.corporatestalwarts.com/wp-content/uploads/2025/03/Rent-a-Recruiter-768x512.webp",
-      to: "/services/Executive-Search",
+      to: "/services/Contractual-Staffing-Services",
     },
     {
       heading: "Permanent Staffing",
@@ -19,19 +19,13 @@ const OurServices = () => {
         "https://www.corporatestalwarts.com/wp-content/uploads/2025/03/Virtual-Hiring-768x512.webp",
       to: "/services/Permanent-Staffing-solution",
     },
+    
     {
-      heading: "Campus Placement",
-      text: "Future leaders are nurtured from day one, and our Campus Hiring Programs ensure you don’t miss the opportunity to attract them.",
-      imageURL:
-        "https://www.corporatestalwarts.com/wp-content/uploads/2025/03/RPO-Outsourcing-768x512.webp",
-      to: "/services/Leadership-Hiring",
-    },
-    {
-      heading: "Payroll",
+      heading: "Payroll Services",
       text: "Managing payroll is more than just calculating salaries—it’s about accuracy, compliance, and trust.",
       imageURL:
         "https://www.corporatestalwarts.com/wp-content/uploads/2025/03/Tech-and-Non-Tech-Hiring-768x512.webp",
-      to: "/services/Contractual-Staffing-Services",
+      to: "/services/PayrollService",
     },
     {
       heading: "Manpower Services",
@@ -46,6 +40,13 @@ const OurServices = () => {
       imageURL:
         "https://www.corporatestalwarts.com/wp-content/uploads/2025/03/HR-Policy-Development-768x512.webp",
       to: "/services/Staff-Outsourcing",
+    },
+    {
+      heading: "Digital Marketing Service",
+      text: "Future leaders are nurtured from day one, and our Campus Hiring Programs ensure you don’t miss the opportunity to attract them.",
+      imageURL:
+        "https://www.corporatestalwarts.com/wp-content/uploads/2025/03/RPO-Outsourcing-768x512.webp",
+      to: "/services/DigitalMarketingServices",
     },
   ];
 

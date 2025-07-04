@@ -1,0 +1,468 @@
+.payroll_service-main {
+  padding: 3rem 1rem;
+  background-color: #f9fafb;
+}
+
+.payroll_service-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  /* gap: 2.5rem; */
+}
+.PayrollService-Discription{
+    margin-top: 10px;
+}
+
+/* what we offer */
+
+.payroll_services_offer-section {
+  background-color: #f3f4f6; /* light gray */
+  padding: 4rem 1rem;
+  width: 100%;
+}
+
+.payroll_services_offer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.payroll_services_offer-heading {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1f2937;
+}
+
+.payroll_services_offer-divider {
+  width: 60px;
+  height: 4px;
+  background-color: #2563eb;
+  margin: 0.75rem auto 1.5rem;
+  border-radius: 9999px;
+}
+
+.payroll_services_offer-subtext {
+  color: #4b5563;
+  font-size: 1rem;
+  max-width: 700px;
+  margin: 0 auto 2rem;
+}
+
+.payroll_services_offer-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.75rem;
+  text-align: left;
+}
+
+@media (min-width: 768px) {
+  .payroll_services_offer-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.payroll_services_offer-card {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  background-color: white;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.payroll_services_offer-icon {
+  color: #10b981;
+  font-size: 1.5rem;
+  margin-top: 0.25rem;
+  flex-shrink: 0;
+}
+
+.payroll_services_offer-title {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #111827;
+  margin-bottom: 0.25rem;
+}
+
+.payroll_services_offer-desc {
+  font-size: 0.95rem;
+  color: #4b5563;
+}
+
+.payroll_services_offer-highlight {
+  margin-top: 2rem;
+  font-weight: 600;
+  color: #1f2937;
+  font-size: 1rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* why choose md global for payroll outsourcing */
+
+.why_choose_payroll-section {
+  background-color: #ffffff;
+  padding: 4rem 1rem;
+  width: 100%;
+}
+
+.why_choose_payroll-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.why_choose_payroll-heading {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 0.5rem;
+}
+
+.why_choose_payroll-subtext {
+  font-size: 1rem;
+  color: #4b5563;
+  max-width: 800px;
+  margin: 0 auto 2.5rem;
+}
+
+.why_choose_payroll-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 768px) {
+  .why_choose_payroll-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1024px) {
+  .why_choose_payroll-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.why_choose_payroll-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  background-color: #f9fafb;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+  text-align: left;
+  transition: transform 0.2s ease;
+}
+
+.why_choose_payroll-card:hover {
+  transform: translateY(-4px);
+}
+
+.why_choose_payroll-icon {
+  color: #2563eb;
+  font-size: 1.75rem;
+  flex-shrink: 0;
+  margin-top: 4px;
+}
+
+.why_choose_payroll-title {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #111827;
+  margin-bottom: 0.25rem;
+}
+
+.why_choose_payroll-desc {
+  font-size: 0.95rem;
+  color: #4b5563;
+}
+
+/* industries we support */
+
+.industries_support-section {
+  background-color: #f9fbfc;
+  padding: 4rem 1rem;
+  width: 100%;
+}
+
+.industries_support-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.industries_support-header {
+  margin-bottom: 2rem;
+}
+
+.industries_support-icon {
+  color: #0ea5e9;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.industries_support-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1f2937;
+}
+
+.industries_support-divider {
+  width: 60px;
+  height: 4px;
+  background-color: #0ea5e9;
+  margin: 0.75rem auto;
+  border-radius: 9999px;
+}
+
+.industries_support-description {
+  font-size: 1rem;
+  color: #4b5563;
+}
+
+.industries_support-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+  .industries_support-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .industries_support-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.industries_support-tag {
+  background-color: #e0f2fe;
+  color: #0369a1;
+  padding: 1rem 1.25rem;
+  border-radius: 0.75rem;
+  font-weight: 500;
+  font-size: 0.95rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+}
+
+.industries_support-footer {
+  font-size: 1rem;
+  color: #374151;
+  max-width: 800px;
+  margin: 0 auto;
+  font-weight: 500;
+}
+
+/* Measurable Businesss Value */
+
+.business_value_section {
+  background-color: #f1f5f9;
+  padding: 4rem 1rem;
+  width: 100%;
+}
+
+.business_value_container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.business_value_icon {
+  font-size: 2rem;
+  color: #1d4ed8;
+  margin-bottom: 0.5rem;
+}
+
+.business_value_title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1f2937;
+}
+
+.business_value_divider {
+  width: 60px;
+  height: 4px;
+  background-color: #2563eb;
+  margin: 0.75rem auto 1.5rem;
+  border-radius: 9999px;
+}
+
+.business_value_intro {
+  font-size: 1rem;
+  color: #4b5563;
+  max-width: 800px;
+  margin: 0 auto 2rem;
+}
+
+.business_value_grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+@media (min-width: 768px) {
+  .business_value_grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .business_value_grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.business_value_card {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s ease;
+}
+
+.business_value_card:hover {
+  transform: translateY(-4px);
+}
+
+.business_value_card_icon {
+  font-size: 1.75rem;
+  color: #10b981;
+  margin-bottom: 0.75rem;
+}
+
+.business_value_card_title {
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-bottom: 0.25rem;
+  color: #111827;
+}
+
+.business_value_card_desc {
+  font-size: 0.95rem;
+  color: #4b5563;
+}
+
+.business_value_footer {
+  margin-top: 2.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #374151;
+  max-width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* SEo Keywords */
+
+.seo_keywords_section {
+  /* background-color: #ffffff; */
+  padding: 3.5rem 1rem;
+  width: 100%;
+}
+
+.seo_keywords_container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.seo_keywords_header {
+  margin-bottom: 2rem;
+}
+
+.seo_keywords_icon {
+  color: #f59e0b;
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.seo_keywords_title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #1f2937;
+}
+
+.seo_keywords_divider {
+  width: 50px;
+  height: 4px;
+  background-color: #f59e0b;
+  margin: 0.75rem auto;
+  border-radius: 9999px;
+}
+
+.seo_keywords_grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.seo_keywords_tag {
+  background-color: #fef3c7;
+  color: #92400e;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  white-space: nowrap;
+  transition: background-color 0.2s ease;
+}
+
+.seo_keywords_tag:hover {
+  background-color: #fde68a;
+}
+
+/* simplify payroll section */
+
+.simplify_payroll_section {
+  background-color: #ecfdf5;
+  padding: 4rem 1rem;
+  text-align: center;
+  width: 100%;
+}
+
+.simplify_payroll_container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.simplify_payroll_icon {
+  font-size: 2.5rem;
+  color: #10b981;
+  margin-bottom: 1rem;
+}
+
+.simplify_payroll_heading {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #065f46;
+  margin-bottom: 1rem;
+}
+
+.simplify_payroll_text {
+  font-size: 1.05rem;
+  color: #374151;
+  max-width: 800px;
+  margin: 0 auto 1.5rem;
+}
+
+.simplify_payroll_cta {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #047857;
+}
+
