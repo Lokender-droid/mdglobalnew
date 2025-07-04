@@ -1,0 +1,264 @@
+.DM_service-main {
+  /* width: 100%; */
+  padding: 3rem 1rem;
+  background-color: #ffffff;
+}
+
+.DM_page-container {
+  
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+}
+
+.DM_service-wrapper h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #1f2937;
+}
+
+@media (min-width: 768px) {
+  .DM_service-wrapper h2 {
+    font-size: 2rem;
+  }
+}
+
+.DM_service-description {
+  font-size: 1rem;
+  line-height: 1.75;
+  color: #374151;
+  text-align: justify;
+}
+
+.DM_service-description strong {
+  color: #0f766e;
+  font-weight: 600;
+}
+
+@media (min-width: 768px) {
+  .DM_service-description {
+    font-size: 1rem;
+  }
+}
+
+/* who we are */
+
+.DM_about-section {
+  padding: 3rem 1rem;
+  width: 100%;
+}
+
+.DM_about-container {
+  max-width: 112rem; /* Tailwind's max-w-7xl equivalent */
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.DM_about-icon {
+  font-size: 2.5rem;
+  color: #0f766e; /* Teal */
+}
+
+.DM_about-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1f2937; /* Gray-800 */
+}
+
+.DM_about-divider {
+  width: 60px;
+  height: 4px;
+  background-color: #0f766e;
+  margin: 0.5rem 0 1.5rem;
+  border-radius: 2px;
+}
+
+.DM_about-description {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #374151; /* Gray-700 */
+  text-align: justify;
+}
+
+.DM_about-description strong {
+  color: #111827; /* Slightly darker text */
+}
+
+/* CoreDigitalServices.css */
+
+.core_services-section {
+  padding: 4rem 1rem;
+  /* background-color: #f9fafb; */
+}
+
+.core_services-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.core_services-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1f2937;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.core_services-subtext {
+  text-align: center;
+  font-size: 1rem;
+  color: #6b7280;
+  max-width: 800px;
+  margin: 0 auto 2rem auto;
+}
+
+.core_services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.core_services-card {
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.core_services-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
+}
+
+.core_services-icon {
+  font-size: 2rem;
+  color: #bd8706;
+  margin-bottom: 1rem;
+}
+
+.core_services-card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 0.5rem;
+}
+
+.core_services-desc {
+  font-size: 0.95rem;
+  color: #4b5563;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.core_services-keywords {
+  font-size: 0.875rem;
+  color: #6b7280;
+  margin-top: 1rem;
+  border-top: 1px dashed #d1d5db;
+  padding-top: 0.75rem;
+}
+
+/* who work with */
+
+/* === Work With Section Styles === */
+
+.work_with-section {
+  background-color: #ffffff;
+  padding: 4rem 1rem;
+}
+
+.work_with-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.work_with-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 0.5rem;
+}
+
+.work_with-description {
+  font-size: 1rem;
+  color: #6b7280;
+  margin-bottom: 2rem;
+}
+
+.work_with-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.work_with-item {
+  background-color: #f3f4f6;
+  padding: 1rem 1.25rem;
+  border-radius: 0.75rem;
+  font-size: 0.95rem;
+  color: #111827;
+  font-weight: 500;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  transition: all 0.3s ease;
+}
+
+.work_with-item:hover {
+  background-color: #e5e7eb;
+  transform: translateY(-3px);
+}
+
+.work_with-footer {
+  font-size: 0.95rem;
+  color: #4b5563;
+  line-height: 1.7;
+  text-align: justify;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* === Build Your Brand Section === */
+
+.build_brand-section {
+  width: 100%;
+  background-color: #f9fafb;
+  padding: 3rem 1rem;
+}
+
+.build_brand-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.build_brand-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1f2937;
+}
+
+.build_brand-description {
+  font-size: 1rem;
+  color: #4b5563;
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: justify;
+  line-height: 1.8;
+}
+
+.build_brand-cta {
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: #2563eb;
+}
+
+
