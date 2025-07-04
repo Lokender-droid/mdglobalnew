@@ -121,16 +121,14 @@ const ContactDetail = ({ icon, text }) => (
 
 const SocialIcons = () => (
   <div className="social-icons">
-    <a href="https://facebook.com" target="_blank" rel="noreferrer">
+    <a href="https://www.facebook.com/mdglobalhrconsultingindia/" target="_blank" rel="noreferrer">
       <FaFacebook />
     </a>
-    <a href="https://twitter.com" target="_blank" rel="noreferrer">
-      <FaTwitter />
-    </a>
-    <a href="https://linkedin.com" target="_blank" rel="noreferrer">
+    
+    <a href="https://www.linkedin.com/company/md-global-hr-consulting-india" target="_blank" rel="noreferrer">
       <FaLinkedin />
     </a>
-    <a href="https://instagram.com" target="_blank" rel="noreferrer">
+    <a href="https://www.instagram.com/md_globalhrindia/" target="_blank" rel="noreferrer">
       <FaInstagram />
     </a>
   </div>

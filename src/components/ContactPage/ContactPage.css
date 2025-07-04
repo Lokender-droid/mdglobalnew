@@ -58,7 +58,7 @@
   align-items: center;
   gap: 1rem;
   margin-bottom: 1rem;
-  border-bottom: 2px solid #e0e7ff;
+  border-bottom: 1px solid #4b4c4e;
   padding-bottom: 0.5rem;
 }
 
@@ -85,7 +85,7 @@
   color: #bd8706;
   margin: 1rem 0 0.5rem;
   padding-bottom: 0.3rem;
-  border-bottom: 1px solid #e0e7ff;
+  border-bottom: 1px solid #4b4c4e;
 }
 
 .office-box {
