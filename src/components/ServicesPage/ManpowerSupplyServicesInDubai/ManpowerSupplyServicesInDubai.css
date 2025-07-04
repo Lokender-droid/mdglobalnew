@@ -1,3 +1,157 @@
-.ManpowerSupplyDubaiMAin{
-    padding: 20px;
+.Manpower-service-page {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+/* Hero Section */
+.Manpower-service-hero {
+  position: relative;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.Manpower-service-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.Manpower-service-hero-text {
+  position: relative;
+  z-index: 2;
+  color: white;
+}
+
+.Manpower-service-hero-text h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.Manpower-service-hero-text p {
+  font-size: 1.1rem;
+}
+
+/* General Sections */
+.Manpower-service-content,
+.Manpower-service-cards,
+.Manpower-service-cta,
+.Manpower-service-form {
+  padding: 4rem 1rem;
+}
+
+.Manpower-service-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Text + Image Section */
+.Manpower-service-text-image {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 2rem;
+  align-items: center;
+}
+
+.Manpower-service-text {
+  max-width: 600px;
+}
+
+.Manpower-service-text-image img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.Manpower-service-text h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.Manpower-service-text p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+/* Cards Grid */
+.Manpower-service-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.Manpower-service-card-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.Manpower-service-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.Manpower-service-card:hover {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.Manpower-service-card h3 {
+  font-size: 1.2rem;
+  color: #1d4ed8;
+  margin-bottom: 0.5rem;
+}
+
+.Manpower-service-card p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* Gray Background Section */
+.Manpower-service-cards.gray {
+  background-color: #f9fafb;
+}
+
+/* CTA */
+.Manpower-service-cta {
+  background-color: #eef2ff;
+  text-align: center;
+}
+
+.Manpower-service-cta h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.Manpower-service-cta p {
+  font-size: 1rem;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* Responsive */
+@media (min-width: 768px) {
+  .Manpower-service-text-image {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .Manpower-service-text,
+  .Manpower-service-text-image img {
+    flex: 1;
+  }
 }

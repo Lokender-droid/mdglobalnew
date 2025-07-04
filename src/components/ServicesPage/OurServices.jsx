@@ -32,7 +32,7 @@ const OurServices = () => {
       text: "Empowering your operations with skilled workers who deliver quality and efficiency.",
       imageURL:
         "https://www.corporatestalwarts.com/wp-content/uploads/2025/03/Executive-Search-768x512.webp",
-      to: "/services/Blue-Collar-Staffing",
+      to: "/services/ManpowerSupplyServicesInDubai",
     },
     {
       heading: "Outsource Business",

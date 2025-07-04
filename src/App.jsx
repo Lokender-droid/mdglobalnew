@@ -7,6 +7,7 @@ import AppLayout from './components/AppLayout/AppLayout';
 import AboutPage from './components/AboutPage/AboutPage';
 import ServicesPage from './components/ServicesPage/ServicesPage';
 import ContactPage from './components/ContactPage/ContactPage';
+import ManpowerSupplyServicesInDubai from './components/ServicesPage/ManpowerSupplyServicesInDubai/ManpowerSupplyServicesInDubai';
 import ContractualStaffingServices from './components/ServicesPage/ContractualStaffingServices/ContractualStaffingServices';
 import PayrollService from './components/ServicesPage/PayrollService/PayrollService';
 import DigitalMarketingServices from './components/ServicesPage/DigitalMarketingServices/DigitalMarketingServices';
@@ -69,6 +70,10 @@ const App = () => {
         {
           path: '/services/Permanent-Staffing-solution',
           element: <PermanentStaffingSolutions />,
+        },
+        {
+          path: '/services/ManpowerSupplyServicesInDubai',
+          element: <ManpowerSupplyServicesInDubai/>,
         },
         {
           path: '/services/Blue-Collar-Staffing',

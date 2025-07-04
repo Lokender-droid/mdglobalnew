@@ -66,7 +66,7 @@ const OutsourcingCompaniesInDubai = () => {
       >
         <div className="ocd-hero-overlay"></div>
         <div className="ocd-hero-content">
-          <h1 className="ocd-hero-title">Top 5 Outsourcing Companies in Dubai 2025</h1>
+          <h1 className="ocd-hero-title">Outsource Service</h1>
           <div className="ocd-hero-underline" />
         </div>
       </motion.section>
