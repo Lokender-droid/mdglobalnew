@@ -82,7 +82,8 @@ const ContactPage = () => {
           <Section title="West India">
             <Office
               city="Ahmedabad/Gujarat"
-              address="E/424 Sidhraj ZSquare, Beside The Landmark Mall, Kudas, Gandhinagar"
+              address="E/42
+              4 Sidhraj ZSquare, Beside The Landmark Mall, Kudas, Gandhinagar"
               email="gujarat@example.com"
               phone="+91-xxx-xxxxxxx"
             />
