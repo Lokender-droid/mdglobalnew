@@ -7,12 +7,13 @@ import { Link } from "react-router-dom";
 
 const FooterPage = () => {
   const ImportantPages = [
-    { heading: "Permanent Staffing", path: "/services/Permanent-Staffing-solution" },
+    
     { heading: "Contractual Staffing", path: "/services/Contractual-Staffing-Services" },
-    { heading: "Outsourcing Companies in Dubai", path: "/outsourcing-companies-in-dubai" },
-    { heading: "Executive Search", path: "/services/Executive-Search" },
-    { heading: "Blue coller Staffing", path: "/services/Blue-Collar-Staffing" },
-    { heading: "Leadership hiring", path: "/services/Leadership-Hiring" },
+    { heading: "Permanent Staffing", path: "/services/Permanent-Staffing-solution" },
+    { heading: "Payroll Service", path: "/services/PayrollService" },
+    { heading: "Manpower Service", path: "/services/ManpowerSupplyServicesInDubai" },
+    { heading: "Outsource Business", path: "/services/Staff-Outsourcing" },
+    { heading: "Digital Marketing Service", path: "/services/DigitalMarketingServices" },
   ];
 
   const QuickLinks = [
