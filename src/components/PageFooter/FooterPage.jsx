@@ -14,16 +14,16 @@ import { Link } from "react-router-dom";
 
 const FooterPage = () => {
   const ImportantPages = [
-    { heading: "SEO", path: "#" },
-    { heading: "Graphic Designing", path: "#" },
-    { heading: "Social Media", path: "#" },
-    { heading: "Website Development", path: "#" },
-    { heading: "", path: "#" },
-    { heading: "Digital Marketing Service", path: "#" },
+    { heading: "Contractural Hiring", path: "/services/Contractual-Staffing-Services" },
+    { heading: "Permanent Staffing", path: "/services/Permanent-Staffing-solution" },
+    { heading: "Payroll Services", path: "/services/PayrollService" },
+    { heading: "Manpower Services", path: "/services/ManpowerSupplyServicesInDubai" },
+    { heading: "Outsource Business", path: "/services/Staff-Outsourcing" },
+    { heading: "Digital Marketing Service", path: "/services/DigitalMarketingServices" },
   ];
 
   const QuickLinks = [
-    { heading: "Blog", path: "/" },
+    { heading: "Blog", path: "https://mdglobalhr.com/blog/" },
     { heading: "About Us", path: "/about" },
     { heading: "Career", path: "/career" },
     { heading: "Contact Us", path: "/contact-us" },

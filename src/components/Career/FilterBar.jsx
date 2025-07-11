@@ -13,6 +13,12 @@ const FilterBar = ({
   const handleCategorySelect = (e) => onCategoryChange(e.target.value);
   const handleLocationSelect = (e) => onLocationChange(e.target.value);
 
+  // Remove duplicates using Set
+  const uniqueCategories = [...new Set(categories)];
+  const uniqueLocations = [...new Set(locations)].sort((a, b) =>
+    a.localeCompare(b)
+  );
+
   return (
     <div className="filter-bar">
       <h2 className="text-xl font-semibold mb-4">Filter Jobs</h2>
@@ -28,7 +34,7 @@ const FilterBar = ({
           onChange={handleCategorySelect}
         >
           <option value="">All Categories</option>
-          {categories.map((category) => (
+          {uniqueCategories.map((category) => (
             <option key={category} value={category}>
               {category}
             </option>
@@ -47,13 +53,11 @@ const FilterBar = ({
           onChange={handleLocationSelect}
         >
           <option value="">All Locations</option>
-          {[...locations]
-            .sort((a, b) => a.localeCompare(b))
-            .map((location) => (
-              <option key={location} value={location}>
-                {location}
-              </option>
-            ))}
+          {uniqueLocations.map((location) => (
+            <option key={location} value={location}>
+              {location}
+            </option>
+          ))}
         </select>
       </div>
     </div>
