@@ -1,12 +1,12 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import './filterbar.css';
+import React from "react";
+import PropTypes from "prop-types";
+import "./filterbar.css";
 
 const FilterBar = ({
   categories = [],
   locations = [],
-  selectedCategory = '',
-  selectedLocation = '',
+  selectedCategory = "",
+  selectedLocation = "",
   onCategoryChange,
   onLocationChange,
 }) => {
@@ -47,11 +47,13 @@ const FilterBar = ({
           onChange={handleLocationSelect}
         >
           <option value="">All Locations</option>
-          {locations.map((location) => (
-            <option key={location} value={location}>
-              {location}
-            </option>
-          ))}
+          {[...locations]
+            .sort((a, b) => a.localeCompare(b))
+            .map((location) => (
+              <option key={location} value={location}>
+                {location}
+              </option>
+            ))}
         </select>
       </div>
     </div>

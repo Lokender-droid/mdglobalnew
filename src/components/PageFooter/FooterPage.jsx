@@ -2,18 +2,24 @@ import React from "react";
 import { motion } from "framer-motion";
 import "./FooterPage.css";
 import logo from "../../assets/images/Logo/Mdglobal_main.png";
-import { FaMapMarkerAlt, FaEnvelope, FaPhoneAlt, FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import {
+  FaMapMarkerAlt,
+  FaEnvelope,
+  FaPhoneAlt,
+  FaFacebookF,
+  FaInstagram,
+  FaLinkedinIn,
+} from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const FooterPage = () => {
   const ImportantPages = [
-    
-    { heading: "Contractual Staffing", path: "/services/Contractual-Staffing-Services" },
-    { heading: "Permanent Staffing", path: "/services/Permanent-Staffing-solution" },
-    { heading: "Payroll Service", path: "/services/PayrollService" },
-    { heading: "Manpower Service", path: "/services/ManpowerSupplyServicesInDubai" },
-    { heading: "Outsource Business", path: "/services/Staff-Outsourcing" },
-    { heading: "Digital Marketing Service", path: "/services/DigitalMarketingServices" },
+    { heading: "SEO", path: "#" },
+    { heading: "Graphic Designing", path: "#" },
+    { heading: "Social Media", path: "#" },
+    { heading: "Website Development", path: "#" },
+    { heading: "", path: "#" },
+    { heading: "Digital Marketing Service", path: "#" },
   ];
 
   const QuickLinks = [
@@ -43,9 +49,18 @@ const FooterPage = () => {
       Email: "hrindia@mdglobalhr.com",
       PhoneNumber: "(+91) 82850 23400, 92123 62488",
       socials: [
-        { icon: <FaFacebookF />, url: "https://www.facebook.com/mdglobalhrconsultingindia/" },
-        { icon: <FaInstagram />, url: "https://www.instagram.com/md_globalhrindia/" },
-        { icon: <FaLinkedinIn />, url: "https://www.linkedin.com/company/md-global-hr-consulting-india" },
+        {
+          icon: <FaFacebookF />,
+          url: "https://www.facebook.com/mdglobalhrconsultingindia/",
+        },
+        {
+          icon: <FaInstagram />,
+          url: "https://www.instagram.com/md_globalhrindia/",
+        },
+        {
+          icon: <FaLinkedinIn />,
+          url: "https://www.linkedin.com/company/md-global-hr-consulting-india",
+        },
       ],
     },
     {
@@ -56,9 +71,18 @@ const FooterPage = () => {
       Email: "hr@mdglobalhr.com",
       PhoneNumber: "(+971) 52 498 4322,(+971) 50 4099390 ",
       socials: [
-        { icon: <FaFacebookF />, url: "https://www.facebook.com/officialmdglobalhr/" },
-        { icon: <FaInstagram />, url: "https://www.instagram.com/official_mdglobal/" },
-        { icon: <FaLinkedinIn />, url: "https://www.linkedin.com/company/md-global-human-resource-consultingllc" },
+        {
+          icon: <FaFacebookF />,
+          url: "https://www.facebook.com/officialmdglobalhr/",
+        },
+        {
+          icon: <FaInstagram />,
+          url: "https://www.instagram.com/official_mdglobal/",
+        },
+        {
+          icon: <FaLinkedinIn />,
+          url: "https://www.linkedin.com/company/md-global-human-resource-consultingllc",
+        },
       ],
     },
   ];
