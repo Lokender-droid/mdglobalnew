@@ -65,8 +65,8 @@ const ContactPage = () => {
             <Office
               city="Delhi"
               address="Connaught Place, New Delhi"
-              email="delhi@example.com"
-              phone="+91-xxx-xxxxxxx"
+              email="hrindia@mdglobalhr.com"
+              phone="+91 9319090180"
             />
           </Section>
 
@@ -74,8 +74,8 @@ const ContactPage = () => {
             <Office
               city="Uttarakhand"
               address="Rajpur Road, Dehradun, Uttarakhand"
-              email="uttarakhand@example.com"
-              phone="+91-xxx-xxxxxxx"
+              email="hrindia@mdglobalhr.com"
+              phone="+91 9319090180"
             />
           </Section>
 
@@ -84,8 +84,8 @@ const ContactPage = () => {
               city="Ahmedabad/Gujarat"
               address="E/42
               4 Sidhraj ZSquare, Beside The Landmark Mall, Kudas, Gandhinagar"
-              email="gujarat@example.com"
-              phone="+91-xxx-xxxxxxx"
+              email="hrindia@mdglobalhr.com"
+              phone="+91 9319090180"
             />
           </Section>
 
