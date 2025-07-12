@@ -27,6 +27,8 @@ import img24 from '../../assets/Clients/24.png';
 import img25 from '../../assets/Clients/25.png';
 import img26 from '../../assets/Clients/26.png';
 import img27 from '../../assets/Clients/27.png';
+import img28 from '../../assets/Clients/28.png';
+import img29 from '../../assets/Clients/29.png';
 
 const images = [
   img1,
@@ -56,6 +58,8 @@ const images = [
   img25,
   img26,
   img27,
+  img28,
+  // img29,
 ];
 
 const InfinitySlider = () => {
@@ -71,14 +75,14 @@ const InfinitySlider = () => {
           repeat: Infinity,
           repeatType: 'loop',
           ease: 'linear',
-          duration: 120,
+          duration: 150,
         }}
       >
         {repeatedImages.map((img, index) => (
           <div className="custom-infinity-item" key={index}>
             <img
               src={img}
-              alt={`Client ${(index % 27) + 1}`}
+              alt={`Client ${(index % 29) + 1}`}
               className="h-30 w-auto object-contain rounded-lg shadow-lg transition-transform duration-300 hover:scale-110"
             />
           </div>

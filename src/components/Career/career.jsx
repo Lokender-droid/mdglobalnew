@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import JobApplyForm from './JobApplyForm';
-import FilterBar from './FilterBar'; // ✅ correct
+import FilterBar from './FilterBar'; 
 import JobCard from './JobCard'; 
 import jobsData from './jobs.json';
 import './career.css';
@@ -33,12 +33,13 @@ const Career = () => {
   useEffect(() => {
     const jobData = jobsData;
     setJobs(jobData);
-    setFilteredJobs(jobData.slice(0, visibleJobs));
 
     const uniqueCategories = [...new Set(jobData.map(job => job.department))];
     const uniqueLocations = [...new Set(jobData.map(job => job.location))];
     setCategories(uniqueCategories);
     setLocations(uniqueLocations);
+
+    // ❌ Don't set filteredJobs here directly — let filtering happen in next effect
   }, []);
 
   useEffect(() => {
@@ -56,13 +57,11 @@ const Career = () => {
   };
 
   const filterJobs = () => {
-    let filtered = [...jobs];
-    if (selectedCategory) {
-      filtered = filtered.filter(job => job.department === selectedCategory);
-    }
-    if (selectedLocation) {
-      filtered = filtered.filter(job => job.location === selectedLocation);
-    }
+    const filtered = jobs.filter(job => {
+      const matchCategory = selectedCategory ? job.department === selectedCategory : true;
+      const matchLocation = selectedLocation ? job.location === selectedLocation : true;
+      return matchCategory && matchLocation;
+    });
     setFilteredJobs(filtered.slice(0, visibleJobs));
   };
 
@@ -81,13 +80,11 @@ const Career = () => {
   const loadMore = () => {
     const newVisibleJobs = visibleJobs + 5;
     setVisibleJobs(newVisibleJobs);
-    let filtered = [...jobs];
-    if (selectedCategory) {
-      filtered = filtered.filter(job => job.department === selectedCategory);
-    }
-    if (selectedLocation) {
-      filtered = filtered.filter(job => job.location === selectedLocation);
-    }
+    const filtered = jobs.filter(job => {
+      const matchCategory = selectedCategory ? job.department === selectedCategory : true;
+      const matchLocation = selectedLocation ? job.location === selectedLocation : true;
+      return matchCategory && matchLocation;
+    });
     setFilteredJobs(filtered.slice(0, newVisibleJobs));
   };
 
@@ -130,9 +127,12 @@ const Career = () => {
               <JobCard key={index} job={job} onApply={handleApply} />
             ))}
           </div>
+
           {filteredJobs.length === 0 && (
             <p className="no-jobs">No jobs found for the selected filters.</p>
           )}
+
+          {/* Load More Button */}
           {filteredJobs.length > 0 && filteredJobs.length < jobs.filter(job => 
             (!selectedCategory || job.department === selectedCategory) && 
             (!selectedLocation || job.location === selectedLocation)
